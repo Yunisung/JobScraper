@@ -1,11 +1,14 @@
-안녕하세요
+안녕하세요.
+
 노마드코더 강의 'Python으로 웹 스크래퍼 만들기' 에서
 7강부터 코드가 갑자기 바뀌는 바람에
 따라가기 힘든 사람들을 위해서 올립니다.
 
 문제가 되는 부분은 이 부분인데요.
+<code>
 from extractors.indeed import extract_indeed_jobs
 from extractors.wwr import extract_wwr_jobs
+</code>
 
 키워드를 입력하면
 indeed 사이트와 wwr 사이트에서 해당 키워드로 등록된 
